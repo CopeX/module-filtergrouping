@@ -1,0 +1,24 @@
+{
+    "name": "copex/module-filtergrouping",
+    "description": "Groups filters for layered navigation (also works for ElasticSuite)",
+    "type": "magento2-module",
+    "license": "OSL-3.0",
+    "authors": [
+        {
+            "email": "andreas.pointner@copex.io",
+            "name": "Andreas Pointner"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "magento/module-layered-navigation": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "CopeX\\FilterGrouping\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}

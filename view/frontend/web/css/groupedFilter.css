@@ -1,0 +1,10 @@
+.sub.filter-options-title{
+    padding-top: 0;
+}
+.sub.filter-options-title:after {
+    display: none;
+}
+.sub.filter-options-content{
+    border: none;
+    padding-bottom: 10px;
+}

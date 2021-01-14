@@ -1,0 +1,7 @@
+<?php /* @var $block \CopeX\FilterGrouping\Block\Navigation\Renderer\Group\Render */ ?>
+<?php foreach ($block->getItems() as $filter) : ?>
+    <?php if ($filter->getItemsCount()) : ?>
+        <div class="sub filter-options-title"><?= /* @escapeNotVerified */ __($filter->getName()) ?></div>
+        <div class="sub filter-options-content"><?= /* @escapeNotVerified */ $block->getRenderer()->render($filter) ?></div>
+    <?php endif; ?>
+<?php endforeach; ?>

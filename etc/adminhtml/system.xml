@@ -1,0 +1,139 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <section id="copex_filter_grouping" translate="label" type="text" sortOrder="1000" showInDefault="1" showInWebsite="1" showInStore="1">
+            <label>Attribute Grouping</label>
+            <tab>catalog</tab>
+            <resource>CopeX_FilterGrouping::config_copex_filtergrouping</resource>
+            <group id="group1" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>Group 1</label>
+                <field id="name" translate="label comment" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Name</label>
+                    <validate>text</validate>
+                    <comment><![CDATA[Enter group name]]></comment>
+                </field>
+                <field id="attributes" translate="label comment" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Attribute Codes</label>
+                    <validate>text</validate>
+                    <comment><![CDATA[comma separated list of attributes e.g. attribute1,attribute2]]></comment>
+                </field>
+            </group>
+            <group id="group2" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>Group 2</label>
+                <field id="name" translate="label comment" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Name</label>
+                    <validate>text</validate>
+                    <comment><![CDATA[Enter group name]]></comment>
+                </field>
+                <field id="attributes" translate="label comment" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Attribute Codes</label>
+                    <validate>text</validate>
+                    <comment><![CDATA[comma separated list of attributes e.g. attribute1,attribute2]]></comment>
+                </field>
+            </group>
+            <group id="group3" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>Group 3</label>
+                <field id="name" translate="label comment" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Name</label>
+                    <validate>text</validate>
+                    <comment><![CDATA[Enter group name]]></comment>
+                </field>
+                <field id="attributes" translate="label comment" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Attribute Codes</label>
+                    <validate>text</validate>
+                    <comment><![CDATA[comma separated list of attributes e.g. attribute1,attribute2]]></comment>
+                </field>
+            </group>
+            <group id="group4" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>Group 4</label>
+                <field id="name" translate="label comment" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Name</label>
+                    <validate>text</validate>
+                    <comment><![CDATA[Enter group name]]></comment>
+                </field>
+                <field id="attributes" translate="label comment" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Attribute Codes</label>
+                    <validate>text</validate>
+                    <comment><![CDATA[comma separated list of attributes e.g. attribute1,attribute2]]></comment>
+                </field>
+            </group>
+            <group id="group5" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>Group 5</label>
+                <field id="name" translate="label comment" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Name</label>
+                    <validate>text</validate>
+                    <comment><![CDATA[Enter group name]]></comment>
+                </field>
+                <field id="attributes" translate="label comment" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Attribute Codes</label>
+                    <validate>text</validate>
+                    <comment><![CDATA[comma separated list of attributes e.g. attribute1,attribute2]]></comment>
+                </field>
+            </group>
+            <group id="group6" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>Group 6</label>
+                <field id="name" translate="label comment" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Name</label>
+                    <validate>text</validate>
+                    <comment><![CDATA[Enter group name]]></comment>
+                </field>
+                <field id="attributes" translate="label comment" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Attribute Codes</label>
+                    <validate>text</validate>
+                    <comment><![CDATA[comma separated list of attributes e.g. attribute1,attribute2]]></comment>
+                </field>
+            </group>
+            <group id="group7" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>Group 7</label>
+                <field id="name" translate="label comment" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Name</label>
+                    <validate>text</validate>
+                    <comment><![CDATA[Enter group name]]></comment>
+                </field>
+                <field id="attributes" translate="label comment" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Attribute Codes</label>
+                    <validate>text</validate>
+                    <comment><![CDATA[comma separated list of attributes e.g. attribute1,attribute2]]></comment>
+                </field>
+            </group>
+            <group id="group8" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>Group 8</label>
+                <field id="name" translate="label comment" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Name</label>
+                    <validate>text</validate>
+                    <comment><![CDATA[Enter group name]]></comment>
+                </field>
+                <field id="attributes" translate="label comment" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Attribute Codes</label>
+                    <validate>text</validate>
+                    <comment><![CDATA[comma separated list of attributes e.g. attribute1,attribute2]]></comment>
+                </field>
+            </group>
+            <group id="group9" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>Group 9</label>
+                <field id="name" translate="label comment" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Name</label>
+                    <validate>text</validate>
+                    <comment><![CDATA[Enter group name]]></comment>
+                </field>
+                <field id="attributes" translate="label comment" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Attribute Codes</label>
+                    <validate>text</validate>
+                    <comment><![CDATA[comma separated list of attributes e.g. attribute1,attribute2]]></comment>
+                </field>
+            </group>
+            <group id="group10" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>Group 10</label>
+                <field id="name" translate="label comment" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Name</label>
+                    <validate>text</validate>
+                    <comment><![CDATA[Enter group name]]></comment>
+                </field>
+                <field id="attributes" translate="label comment" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Attribute Codes</label>
+                    <validate>text</validate>
+                    <comment><![CDATA[comma separated list of attributes e.g. attribute1,attribute2]]></comment>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>
